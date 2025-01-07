@@ -22,5 +22,5 @@ class Config:
     def get_transform_config(self) -> Dict[str, Any]:
         return self.config.get('transform', {})
     
-    def get_cloud_config(self) ->Dict[str, Any]:
+    def get_cloud_config(self) -> Dict[str, Any]:
         return self.config.get('google_cloud', {})
