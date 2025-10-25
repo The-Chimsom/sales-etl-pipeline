@@ -22,3 +22,7 @@ google_cloud:
   bucket_name: your_bucket
   blob_name: your_blob_name
   ```
+## Run the ETL pipeline
+```python
+python main.py
+```  
